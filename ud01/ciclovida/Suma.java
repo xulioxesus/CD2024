@@ -1,14 +1,32 @@
 public class Suma {
-    public static void main(String[] args) {
+    public static void main(String[] argumentos) {
 
-    // Convertir los argumentos a números
-    double numero1 = Double.parseDouble(args[0]);
-    double numero2 = Double.parseDouble(args[1]);
+        //Definición de variables
+        double numero1, numero2, numero3, suma;
 
-    // Calcular la suma
-    double suma = numero1 + numero2;
+        //Inicialización de variables
+        numero1 = 0;
+        numero2 = 0;
+        numero3 = 0;
+        suma = 0;
+        
+        try {
+            // Convertir los argumentos a números
+            numero1 = Double.parseDouble(argumentos[0]);
+            numero2 = Double.parseDouble(argumentos[1]);
 
-    // Imprimir el resultado
-    System.out.println(suma);
+            suma = numero1 + numero2;
+
+            if(argumentos.length == 3){
+                numero3 = Double.parseDouble(argumentos[2]);
+                suma = suma + numero3;
+            }
+
+            // Imprimir el resultado
+            System.out.println(suma);
+            
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
     }
 }
