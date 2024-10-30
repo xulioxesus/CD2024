@@ -1,16 +1,16 @@
 ## Instalación de IDES
 
-- VsCode
+- VsCode:
 `sudo apt install ./code_1.72.0-1664925838_arm64.deb`
 
-- Atom
+- Atom:
 `git clone https://github.com/atom/atom`
 
-- PyCharm
+- PyCharm:
 `sudo snap install pycharm-professional --classic`
 
-- Eclipse
+- Eclipse:
 `sudo mv eclipse/ /opt/eclipse/`
 
-- NetBeans
+- NetBeans:
 `sudo apt install netbeans`
