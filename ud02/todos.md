@@ -1,6 +1,6 @@
 Cada un o seu traballo:
 
-# 5 IDEs sencillos de instalar en una sola linea de comando
+# 5 IDEs sencillos de instalar MateoPA
 
 ### - PyCharm
     sudo snap install pycharm-community --classic
