@@ -6,4 +6,4 @@ La funcionalidad de las ramas de Git te permite crear nuevas ramas de un proyect
 - **Pycharm:** sudo snap install pycharm-community --classic
 - **Eclipse:** sudo apt install eclipse
 - **IntelliJ IDEA:** sudo apt-get install intellij-idea-community
-- **Atom:** sudo snap install atom --classic
+- **Atom:** sudo snap install atom --classica
