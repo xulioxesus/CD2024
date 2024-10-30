@@ -1,5 +1,28 @@
 Cada un o seu traballo:
 
+ PabloFernández3
+# IDES
+
+## CLion
+
+    sudo snap install clion --classic
+
+## Eclipse
+
+    sudo apt install openjdk-13-jdk openjdk-13-doc
+
+## NetBeans
+
+     sudo apt install netbeans
+
+## PyCharm
+
+    sudo snap install pycharm-community --classic
+
+## Visual Studio Code
+
+    sudo snap install pycharm-community --classic
+
 # 5 IDEs facilmente instalables dende terminal (en Linux)
 
 1. **CLion** (versión de proba): é un IDE que axuda na programación en C e C++
@@ -47,3 +70,4 @@ Con Python instalado:
 ```
 sudo pip install spyder
 ```
+main
