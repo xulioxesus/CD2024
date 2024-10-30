@@ -1,5 +1,6 @@
 Cada un o seu traballo:
 
+
 #
 ## 5 IDEs faciles de instalar
 
@@ -25,3 +26,4 @@ Con Python instalado:
 ```
 sudo pip install spyder
 ```
+
