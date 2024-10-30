@@ -29,10 +29,10 @@ Estos son cinco IDEs que puedes instalar en Lubuntu con un solo comando desde la
      ```bash
      sudo snap install eclipse --classic
      ```
-
-5. **Geany**
-   - **Descripción**: Editor de texto ligero que ofrece características de un IDE, ideal para máquinas menos potentes.
-   - **Instalación**:
+Instalación**:
      ```bash
      sudo apt update && sudo apt install geany -y
      ```
+5. **Geany**
+   - **Descripción**: Editor de texto ligero que ofrece características de un IDE, ideal para máquinas menos potentes.
+   - **
