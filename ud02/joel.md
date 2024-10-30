@@ -36,3 +36,4 @@ Estos son cinco IDEs que puedes instalar en Lubuntu con un solo comando desde la
      ```bash
      sudo apt update && sudo apt install geany -y
      ```
+     
