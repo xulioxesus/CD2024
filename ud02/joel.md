@@ -1,3 +1,5 @@
+Joel
+
 # IDEs para Lubuntu con Instalación Rápida desde la Terminal
 
 Estos son cinco IDEs que puedes instalar en Lubuntu con un solo comando desde la terminal.
@@ -36,5 +38,3 @@ Estos son cinco IDEs que puedes instalar en Lubuntu con un solo comando desde la
      ```bash
      sudo apt update && sudo apt install geany -y
      ```
-  
-     
