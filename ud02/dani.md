@@ -9,3 +9,6 @@
 
 ### phpstorm
 >sudo snap install phpstorm --classic
+
+### Netbeans
+>sudo apt install netbeans
