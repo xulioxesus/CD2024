@@ -1,17 +1,18 @@
 Cada un o seu traballo:
-# Thonny
+# IDES FACILES DE INSTALAR
+## Thonny
 > sudo apt install thonny
 
-# Intellij
+## Intellij
 > sudo snap install intellij-idea-ultimate --classic
 
-# Notepad++
+## Notepad++
 > 	sudo snap install notepad-plus-plus
 
-# Bluefish
+## Bluefish
 > sudo apt-get install bluefish
 > sudo aptitude install bluefish
 
-# Emacs
+## Emacs
 > guix package -i emacs
 > sudo apt-get install emacs
