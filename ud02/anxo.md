@@ -1,6 +1,8 @@
 # IDEs faciles de instalar 
 ## 1. Visual estudio Code
 VSCode es un programa fácil de instalar que solo precisa 3 lineas de comando que se pueden juntar en un solo envío
+
+    sudo apt install code
 ## 2. Eclipse 
 Eclipse solo precisa de un solo comando 
 
