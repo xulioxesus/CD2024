@@ -198,6 +198,7 @@ Instalación**:
      ```bash
      sudo apt update && sudo apt install geany -y
      ```
+
 5. **Geany**
    - **Descripción**: Editor de texto ligero que ofrece características de un IDE, ideal para máquinas menos potentes.
    - **
