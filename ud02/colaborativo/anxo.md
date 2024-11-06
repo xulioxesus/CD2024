@@ -24,3 +24,4 @@ Muy popular para Java pero también se puede usar con otros lenguajes.
 Especializado en python para el desarrollo web.
 
     sudo snap install pycharm-community --clasic
+
