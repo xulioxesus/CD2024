@@ -7,9 +7,6 @@ public class TestPersona {
         mengano = new Persona();
         fulano = new Persona();
 
-        mengano.nombre = "Pepe";
-        fulano.nombre = "Manuel";
-
         System.out.println(mengano.getNombre());
 
         System.out.println(mengano + " " + fulano);
