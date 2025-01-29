@@ -1,6 +1,6 @@
 package com.xulioxesus;
 
-public class Alumno {
+public class Alumno extends Persona{
     private String codigoXade;
     private boolean autorizaTutores;
     

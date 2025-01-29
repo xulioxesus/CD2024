@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static  org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
 
@@ -45,7 +45,7 @@ public class TestPersona {
         Persona mengano = new Persona("12345678R", "Pepe",
                                      "Romero","Torres",
                                       "pepe@gmail.com",123456789,
-                                      new Date(), "ES123456789" );
+                                      LocalDate.of(2025,1,29), "ES123456789" );
                                            
         assertTrue(mengano.getNombre().equals("Pepe"));
         assertTrue(mengano.getApellido1().equals("Romero"));
@@ -54,9 +54,10 @@ public class TestPersona {
         assertTrue(mengano.getDni().equals("12345678R"));
         assertTrue(mengano.getIban().equals("ES123456789"));
         assertEquals(mengano.getMovil(), 123456789);
-        assertTrue(mengano.getFecNacimiento() instanceof Date);
+        assertTrue(mengano.getFecNacimiento() instanceof LocalDate);
 
         assertTrue(mengano instanceof Persona);
+
     }
 
     @Test
@@ -68,7 +69,7 @@ public class TestPersona {
         mengano.setApellido2("Torres");
         mengano.setCorreo("pepe@gmail.com");
         mengano.setDni("12345678R");
-        mengano.setFecNacimiento(new Date());
+        mengano.setFecNacimiento(LocalDate.of(2025,1,29));
         mengano.setIban("ES123456789");
         mengano.setMovil(123456789);
         mengano.setNombre("Pepe");
@@ -80,7 +81,21 @@ public class TestPersona {
         assertTrue(mengano.getDni().equals("12345678R"));
         assertTrue(mengano.getIban().equals("ES123456789"));
         assertEquals(mengano.getMovil(), 123456789);
-        assertTrue(mengano.getFecNacimiento() instanceof Date);
+        assertTrue(mengano.getFecNacimiento() instanceof LocalDate);
         assertTrue(mengano instanceof Persona);
     }
+
+    @Test
+    public void comprobarToString(){
+
+        Persona mengano = new Persona("12345678R", "Pepe",
+                                     "Romero","Torres",
+                                      "pepe@gmail.com",123456789,
+                                      LocalDate.of(2025,1,29), "ES123456789" );
+        
+        
+
+        String tmp = "Persona [dni=12345678R, nombre=Pepe, apellido1=Romero, apellido2=Torres, correo=pepe@gmail.com, movil=123456789, fecNacimiento=2025-01-29, iban=ES123456789]";
+        assertEquals(mengano.toString(), tmp);
+    }    
 }

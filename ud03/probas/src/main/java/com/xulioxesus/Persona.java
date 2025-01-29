@@ -1,6 +1,6 @@
 package com.xulioxesus;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Persona {
 
@@ -11,7 +11,7 @@ public class Persona {
     private String apellido2;
     private String correo;
     private Integer movil;
-    private Date fecNacimiento;
+    private LocalDate fecNacimiento;
     private String iban;
 
     public Persona(){
@@ -19,7 +19,7 @@ public class Persona {
     }
 
     public Persona(String dni, String nombre, String apellido1, String apellido2, String correo, Integer movil,
-            Date fecNacimiento, String iban) {
+            LocalDate fecNacimiento, String iban) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellido1 = apellido1;
@@ -68,10 +68,10 @@ public class Persona {
     public void setMovil(Integer movil) {
         this.movil = movil;
     }
-    public Date getFecNacimiento() {
+    public LocalDate getFecNacimiento() {
         return fecNacimiento;
     }
-    public void setFecNacimiento(Date fecNacimiento) {
+    public void setFecNacimiento(LocalDate fecNacimiento) {
         this.fecNacimiento = fecNacimiento;
     }
     public String getIban() {
