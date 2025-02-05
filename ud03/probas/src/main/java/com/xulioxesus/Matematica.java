@@ -2,7 +2,7 @@ package com.xulioxesus;
 
 public class Matematica {
 
-	public int fib(int n) {
+	public static int fib(int n) {
 
 		if (n <= 1) {
 			return n;
@@ -18,7 +18,7 @@ public class Matematica {
 		return fib;
 	}
 
-	public int[] bubbleSort(int[] arr) {
+	public static int[] bubbleSort(int[] arr) {
 		int n = arr.length;
 		boolean swapped;
 		for (int i = 0; i < n - 1; i++) {
