@@ -8,12 +8,11 @@ import static  org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.LocalDate;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TestAlumno {
+class TestAlumno {
 
     Alumno alumno;
     Alumno alumnoEmpty;
@@ -37,7 +36,7 @@ public class TestAlumno {
     }
 
     @Test
-    public void comprobarConstructorVacio(){
+    void comprobarConstructorVacio(){
    
         assertNull(alumnoEmpty.getNombre());
         assertNull(alumnoEmpty.getApellido1());
@@ -52,7 +51,7 @@ public class TestAlumno {
     }
 
     @Test
-    public void comprobarGetters(){
+    void comprobarGetters(){
                                          
         assertTrue(alumno.getNombre().equals("Pepe"));
         assertTrue(alumno.getApellido1().equals("Romero"));
@@ -60,12 +59,12 @@ public class TestAlumno {
         assertTrue(alumno.getCorreo().equals("pepe@gmail.com"));
         assertTrue(alumno.getDni().equals("12345678R"));
         assertTrue(alumno.getIban().equals("ES123456789"));
-        assertEquals(alumno.getMovil(), 123456789);
+        assertEquals(123456789, alumno.getMovil());
         assertTrue(alumno.getFecNacimiento() instanceof LocalDate);
         assertTrue(alumno instanceof Alumno);
         assertTrue(alumno instanceof Persona);
         assertTrue(alumno.isAutorizaTutores());
-        assertEquals(alumno.getCodigoXade(), "1234");
+        assertEquals("1234", alumno.getCodigoXade());
     }
 
     @Test

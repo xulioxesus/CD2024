@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.xulioxesus.AppTest
+Test set: com.xulioxesus.TestMatematica
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in com.xulioxesus.AppTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.xulioxesus.TestMatematica

@@ -38,4 +38,8 @@ public class Matematica {
 		}
 		return arr;
 	}
+
+	public static int sum(int a, int b) {
+        return a + b;
+    }
 }

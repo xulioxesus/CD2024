@@ -2,7 +2,8 @@ package com.xulioxesus;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import java.util.Arrays;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 public class TestMatematica {
     
@@ -56,5 +57,11 @@ public class TestMatematica {
         int[] input = {};
         int[] expected = {};
         assertArrayEquals(expected, Matematica.bubbleSort(input));
+    }
+
+    @ParameterizedTest
+    @CsvSource({"1,2,3", "2,3,5", "10,5,15"})
+    void testSum(int a, int b, int expected) {
+        assertEquals(expected, Matematica.sum(a, b));
     }
 }

@@ -87,6 +87,4 @@ public class Persona {
                 + ", correo=" + correo + ", movil=" + movil + ", fecNacimiento=" + fecNacimiento + ", iban=" + iban
                 + "]";
     }
-
-    
 }
