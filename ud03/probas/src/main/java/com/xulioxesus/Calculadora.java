@@ -1,6 +1,7 @@
 package com.xulioxesus;
 
-public class Calculadora {
+public class Calculadora implements Imprimible
+{
     
     public int sumar(int a, int b) {
         return a + b;
@@ -19,5 +20,13 @@ public class Calculadora {
             throw new ArithmeticException("No se puede dividir por cero");
         }
         return (double) a / b;
+    }
+
+    public void imprimir() {
+        System.out.println("pepe");
+    }
+
+    public String imprimirEnPdf() {
+        return "Pepe";
     }
 }
