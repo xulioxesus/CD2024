@@ -4,8 +4,9 @@ package com.xulioxesus;
  * La clase Circulo representa un círculo en un plano cartesiano.
  * Proporciona métodos para establecer y obtener sus coordenadas y radio,
  * así como cálculos de diámetro, circunferencia y área.
+ *
+ * @author vagrant
  */
-
 public class Circulo {
     private int x; // Coordenada x del centro del círculo
     private int y; // Coordenada y del centro del círculo
@@ -106,9 +107,9 @@ public class Circulo {
     }
     
     /**
-     * Devuelve una representación en cadena del círculo.
+     * {@inheritDoc}
      *
-     * @return Representación en cadena del círculo con su centro y radio
+     * Devuelve una representación en cadena del círculo.
      */
     @Override
     public String toString() {
