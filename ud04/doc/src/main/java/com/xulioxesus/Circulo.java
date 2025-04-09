@@ -67,7 +67,7 @@ public class Circulo {
      * @param valorRadio Nuevo valor del radio
      */
     public void establecerRadio(double valorRadio) {
-        radio = (valorRadio < 0.0 ? 0.0 : valorRadio);
+        radio = valorRadio < 0.0 ? 0.0 : valorRadio;
     }
 
     /**
