@@ -1,0 +1,28 @@
+--class-path
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/classes:/home/vagrant/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/vagrant/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vagrant/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/vagrant/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vagrant/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/vagrant/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar'
+-doclet
+'nl.talsmasoftware.umldoclet.UMLDoclet'
+-docletpath
+'/home/vagrant/.m2/repository/nl/talsmasoftware/umldoclet/2.2.1/umldoclet-2.2.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'doc 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'doc 1.0-SNAPSHOT API'

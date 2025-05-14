@@ -97,7 +97,7 @@ public class Circulo {
         return Math.PI * obtenerDiametro();
     }
 
-    /**
+    /**[ERROR] error: No public or protected classes found to document.
      * Calcula y devuelve el área del círculo.
      *
      * @return Área del círculo
@@ -105,7 +105,7 @@ public class Circulo {
     public double obtenerArea() {
         return Math.PI * radio * radio;
     }
-    
+
     /**
      * {@inheritDoc}
      *

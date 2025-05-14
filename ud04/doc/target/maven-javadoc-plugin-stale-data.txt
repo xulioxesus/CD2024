@@ -1,0 +1,49 @@
+@options
+@packages
+--class-path
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/classes:/home/vagrant/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/vagrant/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/vagrant/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/vagrant/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vagrant/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/vagrant/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar'
+-doclet
+'nl.talsmasoftware.umldoclet.UMLDoclet'
+-docletpath
+'/home/vagrant/.m2/repository/nl/talsmasoftware/umldoclet/2.2.1/umldoclet-2.2.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'doc 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'doc 1.0-SNAPSHOT API'
+com.xulioxesus
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/src/main/java = 1742976583735
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/allpackages-index.html = 1747209346554
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/tag-search-index.js = 1747209346559
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/index-all.html = 1747209346575
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/allclasses-index.html = 1747209346553
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/type-search-index.js = 1747209346555
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/search.js = 1747209346580
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/overview-tree.html = 1747209346544
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/package-search-index.js = 1747209346555
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/package-dependencies.svg = 1747209347588
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/jquery-ui.overrides.css = 1747209346581
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/member-search-index.js = 1747209346559
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/stylesheet.css = 1747209346579
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/script.js = 1747209346579
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/element-list = 1747209346522
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/index.html = 1747209346576
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/module-search-index.js = 1747209346555
+/home/vagrant/Desktop/repos/CD2024/ud04/doc/target/site/apidocs/help-doc.html = 1747209346578
